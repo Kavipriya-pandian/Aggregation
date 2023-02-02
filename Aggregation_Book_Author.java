@@ -8,9 +8,9 @@ import java.util.Scanner;
 
 class Author
 {
-	String name;
-	String emailId;
-	char gender;
+	private String name;
+	private String emailId;
+	private char gender;
 	public Author(String name, String emailId, char gender) {
 	
 		this.name = name;
@@ -40,10 +40,10 @@ class Author
 	
 class Book
 {
-	String name;
-	double price;
-	int quantity;
-	Author author;
+	private String name;
+	private double price;
+	private int quantity;
+	private Author author;
 	public Book(String name, double price, int quantity, Author author)
 	{
 		
